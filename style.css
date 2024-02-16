@@ -17,12 +17,17 @@ h1 {
   font-size: 30px;
   color: aliceblue;
 }
+.hisse{
+  padding-left:  10px;
+}
 .w3-top{
   position: sticky;
   top: 0;
   z-index: 1;
 }
-
+.translate{
+  font-size: 23px;
+}
 .navbar{
   background-color: rgb(47, 47, 203);
 }
@@ -48,15 +53,90 @@ h1 {
 h2{
   color: black;
 }
-.hr{
-  background-color: black;
-  color: black;
+.contact{
+  margin-top: 25px;
 }
-.bacg{
-  background-color: rgb(255, 255, 255);
+#icon{
+  margin-left: 3px;
+  border-radius: 50%;
+}
+.is>i{
+  margin-left: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 .h2{
   margin-left: 30px;
   margin-top: 50px;
   margin-bottom: 30px;
+}
+.bucont{
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.foot1>p{
+  color: aliceblue;
+  margin-top: 20px;
+  margin-left: 5%;
+  font-family: 'Open Sans', sans-serif;  
+  font-size: 15px;
+  font-weight: bold;
+}
+.foot1{
+  margin-left: 5%;
+  margin-top: 20px;
+}
+.foot1>.m1{
+  color: rgb(122, 124, 125);
+  font-size: 10px;
+}
+.m1:hover{
+  color: aliceblue;
+}
+.m2{
+  margin-left: 10%;
+}
+.foot2{
+  flex-wrap: wrap;
+  
+}
+
+@media (max-width : 650px) {
+  .foot1>p{
+    font-size: 11px;
+  }
+  .bucont{
+    height: 700px;
+  }
+  .text{
+    text-align: center;
+  }
+  .hr{
+    width: 300px;
+    margin-left: 5px;
+  }
+  .mm{
+    margin-left: 5px;
+  }
+  .is>i{
+    color: aliceblue;
+    margin-left: 10px;
+  }
+  .by{
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+.h4{
+  flex-wrap: nowrap;
+  display: inline-block;
+}
+h4{
+  color: aliceblue;
+
+
 }
